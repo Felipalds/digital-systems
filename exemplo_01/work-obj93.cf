@@ -1,0 +1,4 @@
+v 4
+file . "pl_or_2in.vhdl" "e92e83d9f5315a144c7dbeb495034e475ff18aae" "20211203115948.369":
+  entity pl_or_2in at 6( 66) + 0 on 11;
+  architecture behavior of pl_or_2in at 18( 203) + 0 on 12;

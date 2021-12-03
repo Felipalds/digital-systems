@@ -21,6 +21,6 @@ architecture behavior of pl_or_2in is
 begin
     -- Expressão Booleana: S = A + B
     S <= A or B;
-    
 
-end architecture pl_or_2in;
+
+end architecture;
