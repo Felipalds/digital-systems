@@ -1,4 +1,10 @@
 v 4
-file . "pl_or_2in.vhdl" "e92e83d9f5315a144c7dbeb495034e475ff18aae" "20211203115948.369":
-  entity pl_or_2in at 6( 66) + 0 on 11;
-  architecture behavior of pl_or_2in at 18( 203) + 0 on 12;
+file . "pl_and_2in.vhdl" "64a7c7a1f7396284bfd833064ab0e6a9768eec97" "20211210142449.823":
+  entity pl_and_2in at 6( 68) + 0 on 25;
+  architecture behavior of pl_and_2in at 18( 207) + 0 on 26;
+file . "pl_2in_tb.vhdl" "c3b58436060c1d871e0cf8b42fb5e2f4aeda6da4" "20211210142449.822":
+  entity pl_2in_tb at 4( 35) + 0 on 23;
+  architecture tb of pl_2in_tb at 8( 87) + 0 on 24;
+file . "pl_or_2in.vhdl" "e92e83d9f5315a144c7dbeb495034e475ff18aae" "20211210142449.824":
+  entity pl_or_2in at 6( 66) + 0 on 27;
+  architecture behavior of pl_or_2in at 18( 203) + 0 on 28;
