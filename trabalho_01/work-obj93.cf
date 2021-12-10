@@ -1,13 +1,16 @@
 v 4
-file . "e_nand.vhdl" "30e799a12175a011d7fcf4a56f609b2ade611c7a" "20211210201059.769":
-  entity e_nand at 1( 0) + 0 on 27;
-  architecture behavior of e_nand at 9( 124) + 0 on 28;
-file . "e_or.vhdl" "4c1492688932ba600f6252ee4a6d02d601ac650b" "20211210201059.769":
-  entity e_or at 1( 0) + 0 on 29;
-  architecture behavior of e_or at 9( 102) + 0 on 30;
-file . "tablebench.vhdl" "275a3c30e16364ddfd59797f261e0dd8c819688e" "20211210201059.770":
-  entity tablebench at 1( 0) + 0 on 31;
-  architecture tb of tablebench at 5( 28) + 0 on 32;
-file . "e_and.vhdl" "b663244493d605b825d93272b15f65d78f4845dd" "20211210201059.768":
-  entity e_and at 1( 0) + 0 on 25;
-  architecture behavior of e_and at 9( 103) + 0 on 26;
+file . "e_nor.vhdl" "f64adb12b106d02269024b0079e0e9dc06e63a93" "20211210201448.587":
+  entity e_nor at 1( 0) + 0 on 37;
+  architecture behavior of e_nor at 9( 104) + 0 on 38;
+file . "e_and.vhdl" "b663244493d605b825d93272b15f65d78f4845dd" "20211210201448.586":
+  entity e_and at 1( 0) + 0 on 33;
+  architecture behavior of e_and at 9( 103) + 0 on 34;
+file . "tablebench.vhdl" "265914b593789f803f67134caa31f9ac534d279a" "20211210201448.588":
+  entity tablebench at 1( 0) + 0 on 41;
+  architecture tb of tablebench at 5( 28) + 0 on 42;
+file . "e_or.vhdl" "4c1492688932ba600f6252ee4a6d02d601ac650b" "20211210201448.587":
+  entity e_or at 1( 0) + 0 on 39;
+  architecture behavior of e_or at 9( 102) + 0 on 40;
+file . "e_nand.vhdl" "30e799a12175a011d7fcf4a56f609b2ade611c7a" "20211210201448.586":
+  entity e_nand at 1( 0) + 0 on 35;
+  architecture behavior of e_nand at 9( 124) + 0 on 36;
