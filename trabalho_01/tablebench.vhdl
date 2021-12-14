@@ -35,8 +35,24 @@ architecture tb of tablebench is
         );
     end component;
 
+    component e_xor is
+        port (
+            A: in bit;
+            B: in bit;
+            S: out bit
+        );
+    end component;
+
+    component e_xnor is
+        port (
+            A: in bit;
+            B: in bit;
+            S: out bit
+        );
+    end component;
+
     signal sA, sB: bit;
-    signal sOR, sAND, sNAND, sNOR: bit;
+    signal sOR, sAND, sNAND, sNOR, sXOR, sXNOR: bit;
 
 
     begin
@@ -45,6 +61,8 @@ architecture tb of tablebench is
         u_and: e_and port map(sA, sB, sAND);
         u_nand: e_nand port map(sA, sB, sNAND);
         u_nor: e_nor port map(sA, sB, sNOR);
+        u_xor: e_xor port map(sA, sB, sXOR);
+        u_xnor: e_xnor port map(sA, sB, sXNOR);
 
         u_tb : process
         begin
