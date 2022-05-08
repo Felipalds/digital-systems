@@ -1,4 +1,0 @@
-v 4
-file . "port_or.vhdl" "680dd3c7d9f2358679f49c2661f3179865d1a2e2" "20211210191441.894":
-  entity port_or at 1( 0) + 0 on 11;
-  architecture behavior of port_or at 11( 105) + 0 on 12;
