@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Fri May  6 12:45:35 2022
+[*]
+[dumpfile] "/home/luizfelipefonsecarosa/github/digital-systems/flip-flop/tb_ffjk.ghw"
+[dumpfile_mtime] "Fri May  6 12:41:04 2022"
+[dumpfile_size] 851
+[savefile] "/home/luizfelipefonsecarosa/github/digital-systems/flip-flop/tb_ffjk.gtkw"
+[timestart] 0
+[size] 1366 699
+[pos] -89 -89
+*-24.911510 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_ffjk.
+[sst_width] 221
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 178
+@200
+-Controle
+@28
+top.tb_ffjk.spr
+top.tb_ffjk.scl
+top.tb_ffjk.sclk
+@200
+-Dados
+@28
+top.tb_ffjk.sj
+top.tb_ffjk.sk
+@200
+-Saída
+@28
+top.tb_ffjk.sq
+top.tb_ffjk.snq
+[pattern_trace] 1
+[pattern_trace] 0
